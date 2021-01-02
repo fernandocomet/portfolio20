@@ -1,18 +1,21 @@
-$mint: #14ad8c;
-$mintLight: #dcf7f4;
-$royalPurple: #52388f;
+$darkbluecomet: #141413;
 $white: #fff;
+$magent: #FE6452;
+$blues: #0531FA;
+$yellowstone: #FCCF5E;
+
 
 body {
-  --foregroundPrimary: #222;
-  --foregroundSecondary: #{$mint};
+  --foregroundPrimary: #{$darkbluecomet}; 
+  --foregroundSecondary: #{$darkbluecomet}; 
   --backgroundPrimary: #{$white};
-  --backgroundSecondary: #{$mintLight};
+  --backgroundSecondary: #{$darkbluecomet}; 
 
   @include whenDark {
-    --foregroundPrimary: #d8d8d8;
-    --foregroundSecondary: #{$mint};
-    --backgroundPrimary: #222;
-    --backgroundSecondary: #{darken($royalPurple, 30%)};  
+    --foregroundPrimary: #{$white};
+    --foregroundSecondary: #{$white};
+    --backgroundPrimary: #{$darkbluecomet};
+    --backgroundSecondary: #{$white};
+    //#{darken($yellowstone, 30%)};  
   }
 }

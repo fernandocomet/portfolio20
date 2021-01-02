@@ -15,6 +15,10 @@ function App() {
         </p>
         <button className="Button">Learn more</button>
       </div>
+      <span>Fernando</span>
+      <span>Comet</span>
+      <span>Interaction</span>
+      <span>Developer</span>
 
       <DarkToggle />
     </div>

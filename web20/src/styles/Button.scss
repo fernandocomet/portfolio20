@@ -1,5 +1,5 @@
 .Button {
-    background: $royalPurple;
+    background: $magent;
     color: $white;
     border: none;
     font-size: 1rem;
@@ -9,10 +9,10 @@
     transition: box-shadow 0.4s;
   
     &:hover {
-      box-shadow: 0 2px 20px rgba($royalPurple, 0.7);
+      box-shadow: 0 2px 20px rgba($magent, 0.7);
   
       @include whenDark {
-        background: lighten($royalPurple, 10%);
+        background: lighten($magent, 10%);
       }
     }
   }
